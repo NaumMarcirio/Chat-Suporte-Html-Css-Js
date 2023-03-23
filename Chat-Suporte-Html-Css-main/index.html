@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Tela Suporte Html e Css</title>
+</head>
+<body>
+    <div id="tela">
+        <header>
+            <h1>Atendimento Online</h1>
+        </header>
+        <main id='conteudo'>
+            <div class="atendente">
+                <p><strong>Atendente diz:</p></strong>
+                <div class="mensagematen">
+                    <p>Boa Tarde, você está falando com a Juliana, gostariamos de saber sua opinião sobre a nossa marca.</p>
+                </div>
+            </div>
+            <div class = "atendente">
+                <p><strong>Atendente diz:</p></strong>
+                <div class="mensagematen">
+                    <p>De 0 à 10, qual a nota você da ao nosso atendimento.</p>
+                </div>
+            </div>
+        
+        </main>
+        <section class="footer">
+                <input id='campoDigitar' type="text" placeholder="Digite sua mensagem...">
+                <button id='botao1' onclick="enviarMensagem()"><img src="assets/material-symbols_send-rounded (1).svg" alt="icone de enviar"></button>   
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
